@@ -19,7 +19,7 @@
                 <div class="datatable table-responsive">
                     <div>
                         <div class="card">
-                            <form action="{{ route('users.store') }}" method="POST"></form>
+                            <form action="{{ route('users.store') }}" method="POST">
                             <div class="form-row">
                                 <div class="col-sm-3">
                                     <input type="text" name="name" class="form-control" placeholder="Nombre">
@@ -36,7 +36,7 @@
                                 </div>
 
                             </div>
-
+                            </form>
                         </div>
                     </div>
 
